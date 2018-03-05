@@ -1,0 +1,43 @@
+[30-Jul-2016 13:00:36 America/Denver] PHP Notice:  Use of undefined constant Password - assumed 'Password' in /home4/foodused/public_html/home/register.php on line 16
+[30-Jul-2016 13:00:36 America/Denver] PHP Notice:  Use of undefined constant ID - assumed 'ID' in /home4/foodused/public_html/home/register.php on line 18
+[30-Jul-2016 13:00:36 America/Denver] PHP Warning:  mysql_query() expects parameter 1 to be string, resource given in /home4/foodused/public_html/home/register.php on line 25
+[30-Jul-2016 13:00:36 America/Denver] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, resource given in /home4/foodused/public_html/home/register.php on line 32
+[30-Jul-2016 13:03:24 America/Denver] PHP Notice:  Use of undefined constant Password - assumed 'Password' in /home4/foodused/public_html/home/register.php on line 16
+[30-Jul-2016 13:03:24 America/Denver] PHP Notice:  Use of undefined constant ID - assumed 'ID' in /home4/foodused/public_html/home/register.php on line 18
+[30-Jul-2016 13:03:24 America/Denver] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, resource given in /home4/foodused/public_html/home/register.php on line 32
+[30-Jul-2016 13:07:02 America/Denver] PHP Notice:  Use of undefined constant Password - assumed 'Password' in /home4/foodused/public_html/home/register.php on line 16
+[30-Jul-2016 13:07:02 America/Denver] PHP Notice:  Use of undefined constant ID - assumed 'ID' in /home4/foodused/public_html/home/register.php on line 18
+[30-Jul-2016 13:07:02 America/Denver] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, resource given in /home4/foodused/public_html/home/register.php on line 32
+[30-Jul-2016 13:09:57 America/Denver] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home4/foodused/public_html/home/register.php on line 13
+[30-Jul-2016 13:19:53 America/Denver] PHP Notice:  Use of undefined constant Password - assumed 'Password' in /home4/foodused/public_html/home/register.php on line 19
+[30-Jul-2016 13:19:53 America/Denver] PHP Notice:  Use of undefined constant ID - assumed 'ID' in /home4/foodused/public_html/home/register.php on line 21
+[30-Jul-2016 13:21:06 America/Denver] PHP Notice:  Use of undefined constant Password - assumed 'Password' in /home4/foodused/public_html/home/login.php on line 14
+[30-Jul-2016 13:21:06 America/Denver] PHP Notice:  Use of undefined constant ID - assumed 'ID' in /home4/foodused/public_html/home/login.php on line 16
+[31-Jul-2016 02:53:42 America/Denver] PHP Notice:  Use of undefined constant Password - assumed 'Password' in /home4/foodused/public_html/home/register.php on line 19
+[31-Jul-2016 02:53:42 America/Denver] PHP Notice:  Undefined index: Password in /home4/foodused/public_html/home/register.php on line 19
+[31-Jul-2016 02:53:42 America/Denver] PHP Notice:  Use of undefined constant ID - assumed 'ID' in /home4/foodused/public_html/home/register.php on line 21
+[31-Jul-2016 02:53:42 America/Denver] PHP Notice:  Undefined index: ID in /home4/foodused/public_html/home/register.php on line 21
+[31-Jul-2016 02:53:43 America/Denver] PHP Notice:  Use of undefined constant Password - assumed 'Password' in /home4/foodused/public_html/home/login.php on line 14
+[31-Jul-2016 02:53:43 America/Denver] PHP Notice:  Undefined index: Password in /home4/foodused/public_html/home/login.php on line 14
+[31-Jul-2016 02:53:43 America/Denver] PHP Notice:  Use of undefined constant ID - assumed 'ID' in /home4/foodused/public_html/home/login.php on line 16
+[31-Jul-2016 02:53:43 America/Denver] PHP Notice:  Undefined index: ID in /home4/foodused/public_html/home/login.php on line 16
+[31-Jul-2016 13:11:56 America/Denver] PHP Notice:  Use of undefined constant Password - assumed 'Password' in /home4/foodused/public_html/home/login.php on line 14
+[31-Jul-2016 13:11:56 America/Denver] PHP Notice:  Use of undefined constant ID - assumed 'ID' in /home4/foodused/public_html/home/login.php on line 16
+[31-Jul-2016 13:54:37 America/Denver] PHP Notice:  Use of undefined constant Password - assumed 'Password' in /home4/foodused/public_html/home/login.php on line 14
+[31-Jul-2016 13:54:37 America/Denver] PHP Notice:  Use of undefined constant ID - assumed 'ID' in /home4/foodused/public_html/home/login.php on line 16
+[11-Aug-2016 12:45:56 America/Denver] PHP Parse error:  syntax error, unexpected '$res' (T_VARIABLE) in /home4/foodused/public_html/home/MenuInterface.php on line 44
+[11-Aug-2016 12:46:01 America/Denver] PHP Parse error:  syntax error, unexpected '$res' (T_VARIABLE) in /home4/foodused/public_html/home/MenuInterface.php on line 44
+[11-Aug-2016 12:46:25 America/Denver] PHP Parse error:  syntax error, unexpected '$res' (T_VARIABLE) in /home4/foodused/public_html/home/MenuInterface.php on line 44
+[11-Aug-2016 12:47:41 America/Denver] PHP Parse error:  syntax error, unexpected '$res' (T_VARIABLE) in /home4/foodused/public_html/home/MenuInterface.php on line 44
+[11-Aug-2016 14:27:07 America/Denver] PHP Warning:  require(dbconnect.php): failed to open stream: No such file or directory in /home4/foodused/public_html/home/MenuInterface.php on line 16
+[11-Aug-2016 14:27:07 America/Denver] PHP Fatal error:  require(): Failed opening required 'dbconnect.php' (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home4/foodused/public_html/home/MenuInterface.php on line 16
+[11-Aug-2016 14:27:35 America/Denver] PHP Warning:  require(dbconnect.php): failed to open stream: No such file or directory in /home4/foodused/public_html/home/MenuInterface.php on line 16
+[11-Aug-2016 14:27:35 America/Denver] PHP Fatal error:  require(): Failed opening required 'dbconnect.php' (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home4/foodused/public_html/home/MenuInterface.php on line 16
+[11-Aug-2016 14:27:37 America/Denver] PHP Warning:  require(dbconnect.php): failed to open stream: No such file or directory in /home4/foodused/public_html/home/MenuInterface.php on line 16
+[11-Aug-2016 14:27:37 America/Denver] PHP Fatal error:  require(): Failed opening required 'dbconnect.php' (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home4/foodused/public_html/home/MenuInterface.php on line 16
+[11-Aug-2016 14:27:39 America/Denver] PHP Warning:  require(dbconnect.php): failed to open stream: No such file or directory in /home4/foodused/public_html/home/MenuInterface.php on line 16
+[11-Aug-2016 14:27:39 America/Denver] PHP Fatal error:  require(): Failed opening required 'dbconnect.php' (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home4/foodused/public_html/home/MenuInterface.php on line 16
+[11-Aug-2016 14:27:49 America/Denver] PHP Warning:  require(dbconnect.php): failed to open stream: No such file or directory in /home4/foodused/public_html/home/MenuInterface.php on line 16
+[11-Aug-2016 14:27:49 America/Denver] PHP Fatal error:  require(): Failed opening required 'dbconnect.php' (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home4/foodused/public_html/home/MenuInterface.php on line 16
+[11-Aug-2016 14:28:36 America/Denver] PHP Warning:  require(dbconnect.php): failed to open stream: No such file or directory in /home4/foodused/public_html/home/MenuInterface.php on line 16
+[11-Aug-2016 14:28:36 America/Denver] PHP Fatal error:  require(): Failed opening required 'dbconnect.php' (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home4/foodused/public_html/home/MenuInterface.php on line 16

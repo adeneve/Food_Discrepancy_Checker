@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="https://pbs.twimg.com/profile_images/3596354243/36d8c7d11ff1e743dd3a8b18bf8be20a_400x400.png">
+  <title>Sharky's Database</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.2">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/Styles.css">
+<script src="scripts/menu_interact.js"></script>
+
+
+
+<div id='Navbar'></div>
+  
+</head>
+
+<div class="container-fluid"> 
+
+<h3>Enter a store, date range, starting/ending inventory and product to be checked</h3>
+
+<div class="well">
+
+<form id="checkIntegrity" action="../PHP/DiscrepancyCheck.php" method="post" style="width:400px;">
+
+<input type="text" name="store_num" placeholder="store number" ><br>
+<input type="text" name= "date1" placeholder="Date, format(e.x. 1/2/2016)"><br>
+<input type="text" name= "date2" placeholder="Date, format(e.x. 1/2/2016)"><br>
+<input type="text" name="weekNum" placeholder="corresponding week number (e.x. y16w32)"><br> <br> <br>
+<input type="text" name="startInv" placeholder="starting inventory"><br>
+<input type="text" name="endInv" placeholder="ending inventory"><br><br>
+<input type="text" name="conversion" placeholder="conversion factor"><br>
+<input type="text" name="yield3" placeholder="yield"><br>
+<select id="products" name="products"><br>
+</select>
+
+
+
+<input type="submit" value="Go" id="submit1"></input>
+
+</form>
+</div>
+</div>
+
+<div class="well" style="position:absolute;overflow:auto;height:500px; width:1100px;overflow-x:hidden;left:10px;"><b>week Table</b>
+<div id="WeekTable" class="container" style=""></div>
+</div>
+
+</html>

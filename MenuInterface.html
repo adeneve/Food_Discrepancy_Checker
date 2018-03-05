@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="https://pbs.twimg.com/profile_images/3596354243/36d8c7d11ff1e743dd3a8b18bf8be20a_400x400.png">
+  <title>Sharky's Database</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/Styles.css">
+<script src="scripts/menu_interact.js"></script>
+
+
+
+<div id='Navbar'></div>
+  
+</head>
+
+
+
+<body style="overflow:auto;white-space:nowrap;">
+<h1>Utilities</h1>
+
+<div id="flip">Click to configure a menu item</div>
+<div id="panel">
+
+<h3 style="position:fixed;right:1190px;top:180px;z-index:20;">Select an item</h3>
+
+<!-- in addition to changing the checkboxes with javascript, make the next button also submit data to a different php form for inserting checked data(need checkbox for product type-->
+<form id="selectItem" action="../PHP/AddItem.php" method="post" name="selectItem" style="position:fixed;right:1100px;bottom:230px;">
+<select id=selections size='12' style="position:fixed;top:250px;width:150px;right:1180px;" name="item">
+  
+</select>
+
+<select style="position:fixed;bottom:340px;left-padding:40px;" name="product">
+<option value="beef">beef</option>
+<option value="chicken">chicken</option>
+</select>
+
+<input type="submit" value="submit" id="submit1" style="position:fixed;right:1000px;top:480px;"></input>
+</form>
+
+
+
+<h3 style="position:fixed;right:900px;top:180px;z-index:4">Add ingredients</h3>
+<div style="position:fixed;right:860px;top:280px;">
+
+
+</div>
+</div>
+
+<button id="FadeButton">Click to view ingredient tables</button>
+
+<div id="menu" class="well" style="position:static; left:400px; top:100px; display:none; width:1000px; height:1600px;overflow:auto;"><b>Select a menu item</b>
+
+
+<select id="products" onchange="showTable(this.value)" style="position:static;right:820px;top:230px;overflow:auto;">
+  
+</select>
+
+<form id="changeItem" action="../PHP/ChangeItem.php" method="post" style="position:fixed;right:60px;">
+
+<input type="text" name="menu_name" placeholder="menu item name"></input><br>
+<input type="text" name="Qty" placeholder="quantity of product"></input><br>
+<input type="text" id="Pname" name="product" value="" placeholder="ingredient"></input>
+
+<input type="submit" value="change" id="submit1" style="position:fixed;right:130px;top:220px;"></input>
+
+</form>
+
+<div id="productTable" class="container" style="position:static;right:350px;width:400px;"></div>
+
+
+
+
+</div>
+</body>
+</html>
+</body>
+
+</html>

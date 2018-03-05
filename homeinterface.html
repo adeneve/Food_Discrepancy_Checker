@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="https://pbs.twimg.com/profile_images/3596354243/36d8c7d11ff1e743dd3a8b18bf8be20a_400x400.png">
+  <title>Sharky's Database</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/Styles.css">
+<style>
+
+</style>
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <span class="icon-bar"><img src="http://sharkys.gimmegrub.com/pages/images/sharkys/images/sharkys_logo.gif" style="width:100px;height:50px;"></span>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</head>
+	
+	<body>
+		
+		<h1>Welcome to the Sharky's Database (Login Success)</h1>
+		<div class = 'container-fluid'>
+      
+        <div class = 'well' >
+        	<div class = 'row'>
+		<h3>Find a bill</h3>
+
+		<form action="BillLookup.php" method="post" class="form-group">
+			
+		<input type="submit" value="Find bill" />
+		</form>
+		
+		
+		<h3>Advanced bill search</h3>
+		
+		<form action="./PHP/ABillLookup.php" method="post" class="form-group">
+		
+		<b>Select a store</b><br />
+		<select name="store">
+			<option value="3477">SHARKY'S (WESTLAKE)</option>
+			<option value="3512">SHARKY'S (HOLLYWOOD)</option>
+			<option value="3476">SHARKY'S (BEVERLY HILLS)</option>
+			</select><br/>
+
+		<b>Enter a date range</b><br/>
+		<input type="text" name="date1" placeholder="start date"/><br/>
+    <input type="text" name="date2" placeholder="end start"/><br/>
+
+    <b>Enter a product number</b><br/>
+    <input type="text" name="P_num"/>
+		<input type="submit" value="Find bill(s)" />
+		</form>
+
+
+    <h3><a href="./PHP/ProductLookup.php">Product number lookup</a></h3>
+	</div>
+
+</div>
+<div class="bottomImage"><img src="/images/earth.jpg" style="width:820px;height:266px;"></div>
+<div class="tab"><p>About FoodUseDB</p></div>
+</div>
